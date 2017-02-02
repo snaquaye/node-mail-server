@@ -1,0 +1,19 @@
+{
+  "name": "mail-server",
+  "version": "1.0.0",
+  "description": "A server to handle compile mail templates and sending the mails out",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samson Quaye",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "email-templates-v2": "^2.0.3",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.8",
+    "nodemailer": "^2.7.2",
+    "rxjs": "^5.0.3"
+  }
+}
